@@ -1,0 +1,223 @@
+/* =========================================
+/* GLOBAL CSS
+============================================*/
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+  line-height: 1.4;
+}
+h1{
+  font-size: 32px;
+  font-weight: 700;
+  
+}
+h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+h3{
+  font-size: 22px;
+  font-weight: 500;
+  color: #010101;
+}
+p{
+  color: #898989;
+}
+ul{
+  padding-left: 0px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/* =========================================
+/* HEADER CSS
+============================================*/
+header{
+  background-color: #fcdb00;
+  padding: 20px 0px;
+}
+.navbar{
+  background: transparent !important;
+}
+
+.nav-item{
+  margin-right: 70px;
+}
+.nav-item:last-child{
+  margin-right: 0px;
+}
+.nav-link{
+  font-weight: 700;
+  font-size: 22px;
+  color:  #010101 !important;
+  transition: .5s;
+}
+.nav-link:hover{
+  color: #fff !important;
+}
+/* =========================================
+/* BANNER CSS
+============================================*/
+.banner{
+  background-color: #fcdb00;
+  padding: 20px 0px 90px 0px;
+  
+}
+
+.banner-text h2{
+ color: #313841;
+ margin: 20px 0px;
+}
+.banner-text p{
+  margin-bottom: 20px;
+  color: #555555;
+}
+
+.social ul{
+  margin-bottom: 0px;
+}
+.social ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.social ul li a{
+  font-size: 42px;
+  color: #010101;
+}
+.banner-img{
+  text-align: center;
+}
+
+.carousel-indicators {
+	bottom: -80px;
+}
+.carousel-indicators [data-bs-target] {
+	box-sizing: content-box;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+
+/* =========================================
+/* FEATURE CSS
+============================================*/
+.feature{
+ padding: 100px 0px;
+}
+.feature-top{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.feature-top p{
+  font-size: 20px;
+  color: #313841;
+  line-height: 28px;
+}
+.feature-item{
+  display: flex;
+  padding: 0px 10px;
+  margin: 40px 0px;
+}
+.f-icon{
+  width: 20%;
+  margin-right: 15px;
+}
+
+.f-text{
+  width: 70%;
+}
+
+/* =========================================
+/* CONTACT CSS
+============================================*/
+.contact{
+  background-color: #010101;
+  padding: 100px 0px;
+}
+.contact-top{
+  margin-bottom: 45px;
+}
+.contact-top h1{
+  color: #fcdb00;
+  margin-bottom: 10px;
+}
+.contact-top p{
+  font-size: 20px;
+}
+.contact-form{
+  width: 50%;
+}
+.form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: transparent;
+	outline: 0;
+	box-shadow: none;
+}
+
+.form{
+  background: #fff;
+  border: none;
+  border-radius: 5px !important;
+  outline: none;
+  color: #898989;
+  font-size: 16px;
+  height: 50px;
+}
+.submit{
+  background: #fcdb00;
+  font-weight: 700;
+  padding: 0.375rem 1.75rem;
+  color: #010101;
+  border-radius: 5px !important;
+  transition: .5s;
+}
+.submit:hover{
+  background: #fff !important;
+  color: #010101;
+}
+.submit:focus{
+  box-shadow: none;
+}
+.c-item{
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+.c-item li{
+  display: inline-block;
+  margin: 0px 10px;
+}
+.c-item li a{
+  background: #fcdb00;
+  color: #010101;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+  display: block;
+}
+/* =========================================
+/* FOOTER CSS
+============================================*/
+footer{
+  background-color: #010101;
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+footer ul li{
+  color: #fff;
+  line-height: 24px;
+}
+footer ul li a{
+  color: #fff;
+  transition: .5s;
+  
+}

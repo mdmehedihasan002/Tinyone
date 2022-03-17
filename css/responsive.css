@@ -1,0 +1,171 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  section{
+    padding: 50px 0px !important;
+  }
+  footer{
+    padding-bottom: 20px;
+  }
+  /* =====================================
+  header media
+======================================== */
+    header{
+      padding: 10px 0px;
+    }
+/* =====================================
+  navbar media
+======================================== */
+    .nav-item {
+      margin-right: 0px;
+      text-align: right;
+  } 
+    .nav-link{
+      font-size: 20px;
+      padding: 5px 0px;
+    }
+/* =====================================
+    banner media
+======================================== */
+   h1{
+    font-size: 29px;
+  }
+  .banner-text h2{
+    margin: 15px 0px;
+  }
+  .banner-img img{
+    display: none;
+  }
+  .carousel-indicators {
+    margin-bottom: 0px;
+    bottom: -50px;
+    }
+    
+
+ /* =====================================
+    feature media
+======================================== */
+.feature{
+  padding: 50px 0px;
+}
+.feature-item {
+	margin: 20px 0px;
+}
+.f-icon {
+	width: 20%;
+	margin-right: 0px;
+}
+.f-text{
+  width: 80%;
+}
+ /* =====================================
+    contact  media
+======================================== */
+.submit{
+  width: 100% !important;
+  margin-left: 0px !important;
+  height: 50px;
+  margin-top: 15px;
+}
+.c-item{
+  margin-top: 50px;
+}
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  section{
+    padding: 50px 0px !important;
+  }
+   /* =====================================
+    navbar media
+   ======================================== */
+   .nav-item {
+    margin-right: 0px;
+    text-align: right;
+} 
+  .nav-link{
+    font-size: 20px;
+  }
+/* =====================================
+  banner media
+======================================== */
+.banner{
+  padding: 80px !important;
+}
+.banner-img{
+  display: none;
+}
+
+/* =====================================
+    feature media
+======================================== */
+
+.feature-item {
+	margin: 30px 0px;
+}
+.f-icon {
+	width: 20%;
+	margin-right: 0px;
+}
+.f-text{
+  width: 80%;
+}
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section{
+    padding: 80px 0px !important;
+  }
+/* =====================================
+  navbar media
+======================================== */
+  .nav-item {
+    margin-right: 0px;
+    text-align: right;
+} 
+
+
+
+/* =====================================
+    feature media
+======================================== */
+  .feature-item {
+    margin: 35px 0px;
+  }
+  
+  
+  
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  section{
+    padding: 100px 0px !important;
+  }
+/* =====================================
+    feature media
+======================================== */
+  .feature-item {
+    margin: 40px 0px;
+  }
+
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+  section{
+    padding: 100px 0px;
+  }
+   }
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  h1{
+    font-size: 32px;
+  }
+  
+   }

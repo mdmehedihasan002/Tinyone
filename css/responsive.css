@@ -29,6 +29,12 @@
    h1{
     font-size: 29px;
   }
+  .banner-tex{
+     text-align:center;	
+  }
+  .social{
+   text-align:center;	
+ }
   .banner-text h2{
     margin: 15px 0px;
   }
